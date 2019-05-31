@@ -1,0 +1,24 @@
+{
+  "name": "gdl-open-house",
+  "version": "1.0.0",
+  "description": "![Área de trabajo e invitación a Open House](https://lh4.googleusercontent.com/eRgzC3S6emgYkLpF46d6vzx4-BRqY2QP9XjqLzsaVJZFVC80Y7oMFRuagUWw5gL5XO9SgRIwsRgLBJNFjupgi3iHFRcyybKlBq51OgSX=s1600)",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^6.1.0",
+    "jsqr": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talshajar/GDL-open-house.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Talshajar/GDL-open-house/issues"
+  },
+  "homepage": "https://github.com/Talshajar/GDL-open-house#readme"
+}

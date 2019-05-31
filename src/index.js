@@ -4,17 +4,13 @@ window.addEventListener('load', function() {
     console.log('ZXing code reader initialized')
     codeReader.getVideoInputDevices()
         .then((videoInputDevices) => {
-            let videoIndex = 0;
-
-
-
+            
             if (videoInputDevices.length >= 1) {
                 videoInputDevices.forEach((element) => {
                     console.log(element);
                 })
                 const sourceSelect = document.getElementById('sourceSelect')
 
-                videoIndex = 1
                 console.log(videoInputDevices.length);
                 let length = videoInputDevices.length - 1;
 
@@ -24,7 +20,7 @@ window.addEventListener('load', function() {
                         codeReader.decodeFromInputVideoDevice(selectedDeviceId, 'video').then((result) => {
                             console.log(result)
                             document.getElementById('result').textContent = result.text
-                     
+                            console.log(result.text)
                           var sound = new Howl({
 src: ['https://d1490khl9dq1ow.cloudfront.net/sfx/mp3preview/jg-032316-sfx-elearning-correct-answer-sound-1.mp3']
 });
